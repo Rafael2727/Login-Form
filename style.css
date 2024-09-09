@@ -1,0 +1,132 @@
+body {
+    background: url(Images/humyag\ logo.png) no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 150px;
+    background-size: cover;
+    margin: auto;
+    background-position: top;
+    background-size: contain;
+    
+
+}
+h1{
+    text-align:start;
+    background-position: top;
+    text-align:justify;
+    font-family:serif;
+    font-weight: 300px;
+    font-size:xx-large;
+    color: #1e4e1b;
+    
+}
+h2{
+    border-radius: 5px;
+   background-color: #cda823;
+   backdrop-filter: blur(5px);
+    
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid rgba(91, 99, 86, 0);
+    border-radius: 12px;
+    padding: 10px 20px;
+    background: transparent;
+    backdrop-filter: blur(6px);
+    box-shadow: 5px 5px 10px 0 rgba(36, 131, 55, 0.759);
+    background-image: url(Images/PRMSU\ LOGO.jpg);
+    background-position: center;
+    background-size: contain;
+    backface-visibility: hidden;
+    background-blend-mode: hue;
+    
+}
+
+.wrapper h2 {
+    font-size: 30px;
+    color: #0e3f11;
+}
+
+.input-field {
+    position: relative;
+}
+
+.input-field input[type="email"],
+.input-field input[type="password"] {
+    border-radius: 15px;
+    background: transparent;
+    margin: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 280px;
+    height: 2px;
+    padding: 20px 40px 20px 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: medium;
+    
+
+}
+
+input:hover {
+    width: 290px;
+}
+
+.input-field i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: rgb(40, 170, 22);
+}
+
+input::placeholder {
+    color: rgb(37, 88, 40);
+}
+
+.btn.submit{
+    background: transparent;
+    
+}
+a.forgot:hover {
+    color: rgba(140, 10, 10, 0.712);
+   
+}
+.btn:hover{
+    transition: 0.3s;
+}
+
+
+.sign-up {
+    background-color: #37c13c;
+    border: none;
+    color: rgb(63, 163, 61);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+a{
+    color: #49b34d;
+}
+button{
+    color: #19c336;
+    overflow: hidden;
+    background-position: 0%;
+    background: fixed;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.btn:hover{
+    background-color: #0e3f11;
+}
+
